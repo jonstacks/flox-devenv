@@ -1,0 +1,751 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "argocd": {
+        "pkg-path": "argocd"
+      },
+      "go": {
+        "pkg-path": "go",
+        "version": "1.23.3"
+      },
+      "htop": {
+        "pkg-path": "htop"
+      },
+      "kind": {
+        "pkg-path": "kind"
+      },
+      "kubectl": {
+        "pkg-path": "kubectl"
+      },
+      "kubernetes-helm": {
+        "pkg-path": "kubernetes-helm"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "argocd",
+      "broken": false,
+      "derivation": "/nix/store/0r53nb7lz61b8rk2mf9yh1xm50nqj6rl-argocd-2.12.6.drv",
+      "description": "Declarative continuous deployment for Kubernetes",
+      "install_id": "argocd",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "argocd-2.12.6",
+      "pname": "argocd",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.12.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/skyxhnjpwnpklaa7sxv3yh0madrwirdn-argocd-2.12.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "argocd",
+      "broken": false,
+      "derivation": "/nix/store/jfc2cg81fzkfy6vbif28pb90f6dkbvsn-argocd-2.12.6.drv",
+      "description": "Declarative continuous deployment for Kubernetes",
+      "install_id": "argocd",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "argocd-2.12.6",
+      "pname": "argocd",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.12.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nddkdwvjl10h9yj78n69g14d0bbqz0r8-argocd-2.12.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "argocd",
+      "broken": false,
+      "derivation": "/nix/store/vfy8ajmg495m5sjinhla7zf5f67dlcpf-argocd-2.12.6.drv",
+      "description": "Declarative continuous deployment for Kubernetes",
+      "install_id": "argocd",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "argocd-2.12.6",
+      "pname": "argocd",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.12.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/k93pfi0inp6brf8n9avy84m7lk12js02-argocd-2.12.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "argocd",
+      "broken": false,
+      "derivation": "/nix/store/4pxja87w50m5i635xvbc7f7xmgrrg5al-argocd-2.12.6.drv",
+      "description": "Declarative continuous deployment for Kubernetes",
+      "install_id": "argocd",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "argocd-2.12.6",
+      "pname": "argocd",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.12.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9zgragb0dxfn4jhh5z0279pv6c437xrq-argocd-2.12.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/mv8bpnbfg4j1gc7vnsq6glxdnrnz5smr-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qrj2wp6vzfpjfrrlcmr22818zg83fb73-go-1.23.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/w6x5p636f88nx6biff22rv8c0hqj29k4-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dm66qyl19skrwcmk4rb9xcs64xc1d071-go-1.23.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/si6gydplf7ybx7fp0brwzblv8m5awbps-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vkjn6njpz4gy5ma763vh8hh93bgjwycr-go-1.23.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/hr6yjfp34id9pnhbrwfzzr8hmzzrr01a-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bavnchxi7v6xs077jxv7fl5rrqc3y87w-go-1.23.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "htop",
+      "broken": false,
+      "derivation": "/nix/store/ik076qib5ix788lzaivffvk6v8vanpwg-htop-3.3.0.drv",
+      "description": "Interactive process viewer",
+      "install_id": "htop",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "htop-3.3.0",
+      "pname": "htop",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y7hgr3r246if0xc074d5im1n6mj17x7g-htop-3.3.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "htop",
+      "broken": false,
+      "derivation": "/nix/store/n96rnhl9lkvq3lap36qy9y6kq0k3d9qm-htop-3.3.0.drv",
+      "description": "Interactive process viewer",
+      "install_id": "htop",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "htop-3.3.0",
+      "pname": "htop",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nw6izbl0d0rywxi5dw4sc6z5d0vv2x1s-htop-3.3.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "htop",
+      "broken": false,
+      "derivation": "/nix/store/jlg7j03frg3961hfc2j20gda7ycykcvl-htop-3.3.0.drv",
+      "description": "Interactive process viewer",
+      "install_id": "htop",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "htop-3.3.0",
+      "pname": "htop",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mq2c8hsjcjzs7cz18qwsm3gi5fpqxm6x-htop-3.3.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "htop",
+      "broken": false,
+      "derivation": "/nix/store/8i0vmsjrvfpcvgwizxl9z18kxsq7m0z6-htop-3.3.0.drv",
+      "description": "Interactive process viewer",
+      "install_id": "htop",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "htop-3.3.0",
+      "pname": "htop",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v610pj2dl6hbgxnk4svs47yf4glvhpcx-htop-3.3.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kind",
+      "broken": false,
+      "derivation": "/nix/store/99zcmmdjri8vd9qam50q2r1il0kkhdjs-kind-0.24.0.drv",
+      "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+      "install_id": "kind",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kind-0.24.0",
+      "pname": "kind",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.24.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/xddda7dwva6bwyif6c4km5ly88ynjm74-kind-0.24.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kind",
+      "broken": false,
+      "derivation": "/nix/store/zgqc66k8pqy7ijd8194axs12vmbmbirw-kind-0.24.0.drv",
+      "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+      "install_id": "kind",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kind-0.24.0",
+      "pname": "kind",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.24.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nca37ixqzrdiwqz8dzw739vanhxx56jb-kind-0.24.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kind",
+      "broken": false,
+      "derivation": "/nix/store/zd3073skgr1pzalg5293g4qw65zn9d1p-kind-0.24.0.drv",
+      "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+      "install_id": "kind",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kind-0.24.0",
+      "pname": "kind",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.24.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/la82f85krswj9vm03i82llqf8c76kk35-kind-0.24.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kind",
+      "broken": false,
+      "derivation": "/nix/store/yw8zb818wwfm6b78sj17h6dmpi4b2bff-kind-0.24.0.drv",
+      "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+      "install_id": "kind",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kind-0.24.0",
+      "pname": "kind",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.24.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/whc08b6ammwjpfg1lmf84036j9zqb40q-kind-0.24.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/j4p5qcsl4v5c9g2ll13g74lrd4dfz7ls-kubectl-1.31.2.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubectl-1.31.2",
+      "pname": "kubectl",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.31.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/mgfqyq94gz2rlfg7kfyxjhlxpd88rrx1-kubectl-1.31.2-convert",
+        "man": "/nix/store/yn7jsawkgab95ly8wjzm7qk4axins9c0-kubectl-1.31.2-man",
+        "out": "/nix/store/4y0isz580qj1gprqihb39jzvq1h3ys8d-kubectl-1.31.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/3518kkp78mhsngl0gvf7v71aj9745s14-kubectl-1.31.2.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubectl-1.31.2",
+      "pname": "kubectl",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.31.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/sxlxrk1msbp2djzpblqn1h2p73vfc5fs-kubectl-1.31.2-convert",
+        "man": "/nix/store/zvncfs48dhhnpfxzmqj1dlgmc0lra96a-kubectl-1.31.2-man",
+        "out": "/nix/store/cmmrb7hbq8rpcvw5isasab3nn2bs0hf5-kubectl-1.31.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/cd44n97nnwdx5xsh69ai04p6k4f0806h-kubectl-1.31.2.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubectl-1.31.2",
+      "pname": "kubectl",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.31.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/d6yjj3akz8dddmjzp2hz2lyd1fwqaqq9-kubectl-1.31.2-convert",
+        "man": "/nix/store/7rvlb9k6bs623m3f7k3ay52n9bx6id1h-kubectl-1.31.2-man",
+        "out": "/nix/store/8dfd5d7i3q0jvqgzc2775kl8b5pbh7g9-kubectl-1.31.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/pg50mwqa4pfx362pbzq5shcc7n7s7bnq-kubectl-1.31.2.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubectl-1.31.2",
+      "pname": "kubectl",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.31.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/44dsmqkr8c3lp4j417nshswcf0mpj9i5-kubectl-1.31.2-convert",
+        "man": "/nix/store/66mlhapc0wawjz2v05116nkp02lxinkx-kubectl-1.31.2-man",
+        "out": "/nix/store/wjr8vcdjb25ja1q3nvzwnzf5qg6iv8iy-kubectl-1.31.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubernetes-helm",
+      "broken": false,
+      "derivation": "/nix/store/mq0r301g889n57mfq7b7z5mnn456yj8z-kubernetes-helm-3.16.3.drv",
+      "description": "Package manager for kubernetes",
+      "install_id": "kubernetes-helm",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubernetes-helm-3.16.3",
+      "pname": "kubernetes-helm",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.16.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v0b54sqamjz5hkbbhbbn62rmhy1ynk5a-kubernetes-helm-3.16.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubernetes-helm",
+      "broken": false,
+      "derivation": "/nix/store/xb6ym4r70xahrpz7xr5hpc81l6nnl8ci-kubernetes-helm-3.16.3.drv",
+      "description": "Package manager for kubernetes",
+      "install_id": "kubernetes-helm",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubernetes-helm-3.16.3",
+      "pname": "kubernetes-helm",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.16.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vsps7v36p9nbx08v8c7x1a36mmknhacy-kubernetes-helm-3.16.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubernetes-helm",
+      "broken": false,
+      "derivation": "/nix/store/ghzczbjx54pbjfwwlgy6ib3arjwx0sk7-kubernetes-helm-3.16.3.drv",
+      "description": "Package manager for kubernetes",
+      "install_id": "kubernetes-helm",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubernetes-helm-3.16.3",
+      "pname": "kubernetes-helm",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.16.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/s57dya7h9slzyrnjg8h3hzbh695ksvj5-kubernetes-helm-3.16.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubernetes-helm",
+      "broken": false,
+      "derivation": "/nix/store/07xwpamnqd05lxyvsxb4l0cq4447064l-kubernetes-helm-3.16.3.drv",
+      "description": "Package manager for kubernetes",
+      "install_id": "kubernetes-helm",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "name": "kubernetes-helm-3.16.3",
+      "pname": "kubernetes-helm",
+      "rev": "5e4fbfb6b3de1aa2872b76d49fafc942626e2add",
+      "rev_count": 708622,
+      "rev_date": "2024-11-15T13:07:34Z",
+      "scrape_date": "2024-11-17T03:59:12Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.16.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nyrghdw5xi4kiwbsw6vdvnnyra5cy0x7-kubernetes-helm-3.16.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
